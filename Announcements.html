@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</meta>
+<style>
+* {
+box-sizing:border-box;
+font-family:verdana;
+}
+.col-1 {width:6.25%;}
+.col-2 {width:12.5%;}
+.col-3 {width:19.75%;}
+.col-4 {width:25%;}
+.col-5 {width:31.25%;}
+.col-6 {width:37.5%;}
+.col-7 {width:43.75%;}
+.col-8 {width:50%;}
+.col-9 {width:56.25%;}
+.col-10 {width:62.5%;}
+.col-11 {width:69.75%;}
+.col-12 {width:75%;}
+.col-13 {width:81.25%;}
+.col-14 {width:87.5%;}
+.col-15 {width:93.75%;}
+.col-16 {width:100%;}
+[class*="col-"] {
+float:left;
+padding:none;
+margin:none;
+border:none;
+}
+.row::after {
+content:"";
+clear:both;
+display:table;
+}
+.button {
+font-size:15px;
+padding-top:15px;
+padding-bottom:15px;
+background-color:white;
+border:none;
+color:black;
+width:100%;
+}
+.button:hover {background-color:#009BFF;color:white;}
+.container {
+position: relative;
+text-align: center;
+color: white;
+}
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.text2 {
+margin-left:80px;
+padding-top:30px;
+}
+.mainText {
+color:#009BFF;
+font-size:50px;
+text-align:center;
+padding:40px
+}
+.subText {
+color:white;
+background-color:#009BFF;
+text-align:center;
+padding:30px;
+margin:none;
+}
+.image1 {
+width:100%;
+object-fit:cover;
+margin:none;
+}
+</style>
+</head>
+<body>
+<div class="row">
+    <div class="col-2" style="text-align:center;"> <button class="button" onclick="document.location='https://www.youtube.com/watch?v=dQw4w9WgXcQ'">Pelham</button></div>
+    <div class="col-6" style="border:none;padding:2px;"></div>
+    <div class="col-1" style="text-align:center;"><button class="button" onclick="document.location='HomePage.html'">Home</button></div>
+    <div class="col-2" style="text-align:center;"><button class="button"  onclick="document.location='MILSIM2021.html'">MilSim 2021</button></div>
+    <div class="col-2" style="text-align:center;"><button class="button"  onclick="document.location='ContactUs.html'">Contact Us</button></div>
+    <div class="col-2" style="text-align:center;"><button class="button"  onclick="document.location='Announcements.html'">Site Updates</button></div>
+    <div class="col-1" style="text-align:center;"> <button class="button">More</button> </div>
+</div>
+<div class="row>
+     <div class="col-16"> <p class="mainText"> Announcements </div>
+</div>
+<div class="row">
+     <div class="col=16 subText"> General updates and announcements for PelMUN club members and PelMUNC/MilSilm delegates will be posted here </div> 
+</div>
+<div class="row">
+     <div class="col-16"> <img src="https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc5MDg3MjM0ODE5NDAx/united-nations-2.jpg" class="image1" height="300px"> </div> 
+</div>
+</div class="row">
+      <div class="col-16 subText"> Yeah this is really outdated, but I'll try to update it ASAP </div>
+</div>
+<div class="row" style="padding:60px;">
+</div>
+<div class="row">
+     <div class="col-3" style="text-align:left;margin-left:500px"> <b> May 1, 2021 </b> </div>
+     <div class="col-7" style="text-align:left; font-size:15px;"> MilSim 2021 is actually on the 22nd of May, I also updated the pictures page and some minor bugs were squashed. More to follow!
+</div>
+<div class="row" style="padding:60px;">
+</div>
+</body>
+</html>
